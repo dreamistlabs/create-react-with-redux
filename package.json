@@ -2,18 +2,33 @@
   "name": "create-react-with-redux",
   "version": "0.0.1",
   "description": "Creates a boilerplate create-react-app project with Redux added to the application",
-  "main": "bin/index.js",
+  "homepage": "https://github.com/dreamistlabs/create-react-with-redux#readme",
+  "author": "Johnny Hu",
+  "main": "/bin/create-react-with-redux.js",
+  "bin": {
+    "create-react-with-redux": "./bin/create-react-with-redux.js"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dreamistlabs/create-react-with-redux.git"
   },
-  "author": "Johnny Hu",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dreamistlabs/create-react-with-redux/issues"
   },
-  "homepage": "https://github.com/dreamistlabs/create-react-with-redux#readme"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "create-react-app": "^1.4.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
 }
