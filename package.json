@@ -1,0 +1,19 @@
+{
+  "name": "create-react-with-redux",
+  "version": "0.0.1",
+  "description": "Creates a boilerplate create-react-app project with Redux added to the application",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamistlabs/create-react-with-redux.git"
+  },
+  "author": "Johnny Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreamistlabs/create-react-with-redux/issues"
+  },
+  "homepage": "https://github.com/dreamistlabs/create-react-with-redux#readme"
+}
